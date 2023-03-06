@@ -39,6 +39,9 @@ const App = () => {
     //   <StatusBar style="auto" />
     //   <Text>Open up App.js to start working on your app!</Text>
     // </View>
+    // ⚙️   Manifest: https://exp.host/@neosalvatore/nft Learn more.
+    // ⚙️   Project page: https://expo.dev/@neosalvatore/nft?serviceType=classic&distribution=expo-go
+    //
   );
 };
 

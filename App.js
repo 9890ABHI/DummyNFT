@@ -5,6 +5,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import Details from "./screens/Details";
 import Home from "./screens/Home";
+import Profile from "./screens/Profile";
 
 const Stack = createStackNavigator();
 const theme = {
@@ -32,6 +33,7 @@ const App = () => {
         >
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Details" component={Details} />
+          <Stack.Screen name="Profile" component={Profile} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
@@ -46,3 +48,6 @@ const App = () => {
 };
 
 export default App;
+
+// expo 1,uncover 2,parent 3,nest 4,frost 5,book 6,network
+// expo 7,eternal 8,cup 9,badge 10,rent 11,leisure 12,turn
